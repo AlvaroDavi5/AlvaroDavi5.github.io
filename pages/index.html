@@ -5,11 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="./styles/header.css">
 		<link rel="stylesheet" href="./styles/main.css">
+		<link rel="stylesheet" href="./styles/header.css">
+		<link rel="stylesheet" href="./styles/home.css">
 		<link rel="stylesheet" href="./styles/footer.css">
 		<link rel="stylesheet" href="./styles/responsive.css">
-	<title>Álvaro Davi - Portfolio</title>
+		<title>Álvaro Davi - Portfolio</title>
 	</head>
 
 	<body>
@@ -22,24 +23,36 @@
 							src="https://github.com/AlvaroDavi5.png"
 						>
 					</div>
-					<div id="fulllname">
+					<div id="name-title">
 						<h1>Álvaro Davi</h1>
-						<h2>Santos Alves</h2>
-						<div id="title">
-							<h3>Software Developer</h3>
-						</div>
+						<h3>Software Developer</h3>
 					</div>
-					<div id="pages">
+					<div id="navbar-options">
 						<ul>
-							<li>Homepage</li>
-							<li>Projects</li>
-							<li>About</li>
+							<li><a href="#">Homepage</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">About</a></li>
 						</ul>
 					</div>
 					<div id="theme-selector">
 						<button id="theme-button">
 							<span id="theme-button-text">Dark Mode</span>
 						</button>
+					</div>
+					<div id="menu-button">
+						<input type="checkbox" id="menu-checkbox">
+						<label for="menu-checkbox">
+							<img src="./assets/menu-icon.png" alt="menu icon" id="menu-icon">
+						</label>
+						<div id="menu-options">
+							<nav>
+								<ul>
+									<li><a href="#">Homepage</a></li>
+									<li><a href="#">Projects</a></li>
+									<li><a href="#">About</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</header>
@@ -79,12 +92,14 @@
 			<footer>
 				<div id="contact">
 					<ul>
-						<li id="github">GitHub</li>
-						<li id="linkedin">LinkedIn</li>
-						<li id="email">E-mail</li>
+						<li id="github"><a href="">GitHub</a></li>
+						<li id="linkedin"><a href="">LinkedIn</a></li>
+						<li id="email"><a href="">E-mail</a></li>
 					</ul>
 				</div>
 			</footer>
 		</div>
+
+		</script src="./scripts/intro.js">
 	</body>
 </html>
