@@ -5,12 +5,6 @@
 @import url("./responsive.css");
 
 
-#home-page {
-	height: 100%;
-	width: 100%;
-}
-
-
-#page-content {
-	background-color: #f0f0f5;
+#page-content a {
+	color: #ffffff;
 }

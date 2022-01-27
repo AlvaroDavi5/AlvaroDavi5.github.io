@@ -25,48 +25,54 @@
 					</div>
 					<div id="navbar-options">
 						<ul>
-							<li><a href="#">Homepage</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">About</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#experiences">Experiences</a></li>
 						</ul>
 					</div>
-					<div id="theme-selector">
-						<button id="theme-button">
-							<span id="theme-button-text">Dark Mode</span>
-						</button>
-					</div>
 					<div id="menu-button">
-						<input type="checkbox" id="menu-checkbox">
+						<input type="checkbox" id="menu-checkbox" onclick="toggleOptionsMenu()">
 						<label for="menu-checkbox">
-							<img src="./assets/menu-icon.png" alt="menu icon" id="menu-icon">
+							<img src="./assets/menu-icon-white.png" alt="menu icon" id="menu-icon">
 						</label>
-						<div id="menu-options">
-							<nav>
-								<ul>
-									<li><a href="#">Homepage</a></li>
-									<li><a href="#">Projects</a></li>
-									<li><a href="#">About</a></li>
-								</ul>
-							</nav>
-						</div>
+						<div id="menu-options"></div>
 					</div>
 				</div>
 			</header>
 
 			<div id="page-content">
-				<div>
-					Resume
-					<div>
+				<div id="basic-infos">
+					<div id="about">
+						<h2>About Me</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Sed euismod, urna eu tincidunt consectetur, nisi nunc
+							viverra nisi, euismod aliquam nisl nunc euismod nunc.
+							Sed euismod, urna eu tincidunt consectetur, nisi nunc
+							viverra nisi, euismod aliquam nisl nunc euismod nunc.
+						</p>
+						<br>
+					</div>
+					<div id="contact">
+						<h4>Contact</h4>
+						<ul>
+							<li>GitHub</li>
+							<li>LinkedIn</li>
+							<li>e-Mail</li>
+						</ul>
 						<a href="https://drive.google.com/file/d/1dcYonafspY1OKwCt9Tp6gtl5OlJuchMN/view">
 							Curriculum Vitae
 						</a>
+						<br>
 					</div>
+					<br>
 				</div>
-				<div>
-					Skills
+
+				<div id="skills">
+					<h4>Skills</h4>
 					<div>
-						hard Skills
-						<ul id="languages">
+						<h6>Hard Skills</h6>
+						<ul>
 							Languages
 							<li>HTML</li>
 							<li>CSS</li>
@@ -74,28 +80,38 @@
 						</ul>
 					</div>
 					<div>
-						soft Skills
+						<h6>Soft Skills</h6>
+						<ul>
+							<li>Good comunication</li>
+						</ul>
 					</div>
+					<br>
 				</div>
-				<div>
-					Experiences
+
+				<div id="projects">
+					<h4>Projects</h4>
+					<div>
+						<h6>Project 1</h6>
+					</div>
+					<br>
 				</div>
-				<div>
-					References
+
+				<div id="experiences">
+					<h4>Experiences</h4>
+					<div>
+						<h6>Experience 1</h6>
+					</div>
+					<br>
 				</div>
 			</div>
 
 			<footer>
-				<div id="contact">
-					<ul>
-						<li id="github"><a href="">GitHub</a></li>
-						<li id="linkedin"><a href="">LinkedIn</a></li>
-						<li id="email"><a href="">E-mail</a></li>
-					</ul>
-				</div>
+				<p>
+					by Alvaro Davi &#169; 2022
+				</p>
 			</footer>
 		</div>
 
-		</script src="./scripts/homepage.js">
+		<script src="./scripts/homepage.js"></script>
 	</body>
 </html>

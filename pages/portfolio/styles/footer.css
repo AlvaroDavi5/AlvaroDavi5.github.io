@@ -1,18 +1,14 @@
 
-#home-page footer {
-	background-color: #abd31c;
-	display: block;
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 
-
-#home-page footer li {
-  display: inline;
-	float: left;
-  width: 80px;
-}
-
-#home-page footer li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+footer p {
+	color: #ffffff;
+	padding: 10px;
+	font-size: 0.8em;
 }
