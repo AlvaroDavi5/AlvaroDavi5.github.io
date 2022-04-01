@@ -22,4 +22,7 @@
 	#navbar-options {
 		display: none;
 	}
+	#about {
+		text-align: center;
+	}
 }
