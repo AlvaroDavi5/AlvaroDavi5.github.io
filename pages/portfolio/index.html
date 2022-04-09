@@ -125,22 +125,171 @@
 
 				<div id="skills">
 					<h4>Skills</h4>
+
 					<div>
 						<h5>Hard Skills</h5>
-						<h6>Languages</h6>
-						<ul>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-						</ul>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Programming Languages</h6>
+							</a>
+							<ul>
+								<li>C</li>
+								<li>JavaScript</li>
+								<li>Python</li>
+								<li>R</li>
+								<li>Arduino</li>
+								<li>Java</li>
+								<li>C++</li>
+								<li>Shell Script</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Markup and Stylish Languages</h6>
+							</a>
+							<ul>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>MarkDown</li>
+								<li>TeX</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Data Structures Query Languages</h6>
+							</a>
+							<ul>
+								<li>SQL</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Hardware Description Language</h6>
+							</a>
+							<ul>
+								<li>VHDL</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Libraries and Frameworks</h6>
+							</a>
+							<ul>
+								<li>TypeScript</li>
+								<li>Node.js</li>
+								<li>React.js</li>
+								<li>Next.js</li>
+								<li>Express.js</li>
+								<li>REST API</li>
+								<li>Sequelize ORM</li>
+								<li>Chakra-UI</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Operating Systems</h6>
+							</a>
+							<ul>
+								<li>Windows</li>
+								<li>Ubuntu</li>
+								<li>Linux Mint</li>
+								<li>Debian</li>
+								<li>Fedora</li>
+								<li>Arch Linux</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Code Versioning</h6>
+							</a>
+							<ul>
+								<li>Git</li>
+								<li>GitHub</li>
+								<li>BitBucket</li>
+								<li>GitHub Actions</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Agile</h6>
+							</a>
+							<ul>
+								<li>Scrum</li>
+								<li>Kanban</li>
+								<li>Trello</li>
+								<li>Jira</li>
+								<li>Confluence</li>
+								<li>GitHub Projects</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Tests</h6>
+							</a>
+							<ul>
+								<li>Jest</li>
+								<li>Selenium</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Cloud Services</h6>
+							</a>
+							<ul>
+								<li>Google Cloud</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Prototyping & Deploy</h6>
+							</a>
+							<ul>
+								<li>Figma</li>
+								<li>MockFlow</li>
+								<li>Vercel</li>
+								<li>Heroku</li>
+								<li>GitHub Pages</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Others Hard Skills</h6>
+							</a>
+							<ul>
+								<li>Docker</li>
+								<li>Docker Compose</li>
+								<li>MySQL</li>
+								<li>PostgreSQL</li>
+								<li>Jupyter Notebook</li>
+								<li>Power BI</li>
+							</ul>
+						</div>
 					</div>
+
 					<div>
 						<h5>Soft Skills</h5>
-						<ul>
-							<li>Good comunication</li>
-						</ul>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Languages</h6>
+							</a>
+							<ul>
+								<li>Portuguese (native)</li>
+								<li>English (intermediate)</li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<a href="#">
+								<h6>Others Soft Skills</h6>
+							</a>
+							<ul>
+								<li>responsible</li>
+								<li>dedicated</li>
+								<li>good oratory</li>
+								<li>works well in a team</li>
+								<li>always willing to learn</li>
+							</ul>
+						</div>
 					</div>
-					<br>
 				</div>
 
 				<div id="projects">
@@ -160,5 +309,16 @@
 		</div>
 
 		<script src="./scripts/homepage.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('div.dropdown').not(this).find('ul').hide();
+				$('div.dropdown').click(function() {
+					$(this).find('ul').toggle();
+				});
+			});
+		</script>
 	</body>
 </html>
