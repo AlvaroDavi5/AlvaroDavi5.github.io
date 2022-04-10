@@ -7,7 +7,6 @@ var menuContent = '\
 		<li><a href="#about">About</a></li>\
 		<li><a href="#experiences">Experiences</a></li>\
 		<li><a href="#skills">Skills</a></li>\
-		<li><a href="#projects">Projects</a></li>\
 	</ul>\
 </nav>\
 ';
