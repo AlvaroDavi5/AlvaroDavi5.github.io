@@ -130,13 +130,6 @@
 	background-color: rgb(102, 102, 102);
 }
 
-details > summary {
-	list-style: none;
-}
-details > summary::-webkit-details-marker {
-	display: none;
-}
-
 .skills-block {
 	display: flex;
 	flex-direction: column;
