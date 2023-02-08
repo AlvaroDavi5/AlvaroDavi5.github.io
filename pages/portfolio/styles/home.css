@@ -62,7 +62,13 @@
 	background-image: url("https://cdn-icons-png.flaticon.com/512/1672/1672211.png");
 }
 
-.contact-li {
+.contacts {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.contacts li {
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	background-position: 50% 5px;
@@ -80,6 +86,7 @@
 #exp-list {
 	display: flex;
 	flex-flow: wrap;
+	justify-content: space-around;
 }
 
 .experiences {
@@ -174,7 +181,8 @@
 
 .knowledgements {
 	display: flex;
-	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
 }
 
 .knowledgement-block {
