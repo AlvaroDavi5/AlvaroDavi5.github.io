@@ -1,4 +1,3 @@
-
 :root {
 	--primary-color: #34cb79;
 	--secondary-color: #322153;
@@ -15,7 +14,8 @@
 }
 
 
-html, body {
+html,
+body {
 	font-family: Roboto, sans-serif;
 	max-width: 100%;
 	overflow-x: hidden;
@@ -30,7 +30,12 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Ubuntu', sans-serif;
 	color: var(--primary-color);
 }

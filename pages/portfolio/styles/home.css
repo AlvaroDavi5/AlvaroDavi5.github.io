@@ -25,6 +25,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 #about p {
 	text-indent: 30px;
 }
@@ -38,13 +39,16 @@
 	align-items: center;
 	text-align: center;
 }
+
 #contact li {
 	float: left;
 }
+
 #contact a {
 	padding: 50px 20px 5px;
 	display: block;
 }
+
 #contact #github {
 	background-image: url("../assets/github-icon-white.png");
 	/*
@@ -52,12 +56,15 @@
 	? https://cdn-icons-png.flaticon.com/512/733/733553.png
 	*/
 }
+
 #contact #linkedin {
 	background-image: url("https://cdn-icons-png.flaticon.com/512/174/174857.png");
 }
+
 #contact #email {
 	background-image: url("https://cdn-icons-png.flaticon.com/512/281/281769.png");
 }
+
 #contact #cv {
 	background-image: url("https://cdn-icons-png.flaticon.com/512/1672/1672211.png");
 }
@@ -97,12 +104,14 @@
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 .experiences:hover {
 	color: black;
 	background-color: #fdf7f7b6;
 	box-shadow: 0 0 10px var(--light-color);
 	transition: all 0.8s;
 }
+
 .experiences:hover h5 {
 	color: var(--secondary-color);
 	transition: all 0.8s;
@@ -111,24 +120,31 @@
 #skills {
 	margin: 10px;
 }
+
 #skills div {
 	margin: 5px;
 }
-#skills, #skills .skills-block {
+
+#skills,
+#skills .skills-block {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 #skills h4 {
 	margin: 25px 10px 15px 10px;
 }
+
 #skills h5 {
 	margin: 10px;
 }
+
 #skills ul {
 	margin: 20px 5px 10px 5px;
 }
+
 #skills li {
 	display: inline-block;
 	margin: 5px;
@@ -158,6 +174,7 @@
 	justify-content: center;
 	width: 100%;
 }
+
 .skills-details summary {
 	display: flex;
 	align-items: center;
@@ -165,6 +182,7 @@
 	align-content: center;
 	justify-content: center;
 }
+
 .skills-details summary h6 {
 	cursor: pointer;
 	text-align: center;
@@ -172,6 +190,7 @@
 	padding: 10px;
 	max-width: 250px;
 }
+
 .skills-details summary:hover h6 {
 	color: var(--secondary-color);
 	background-color: #fdf7f7b6;
@@ -193,12 +212,14 @@
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 .knowledgement-block:hover {
 	color: black;
 	background-color: #fdf7f7b6;
 	box-shadow: 0 0 10px var(--light-color);
 	transition: all 0.8s;
 }
+
 .knowledgement-block:hover h6 {
 	color: var(--secondary-color);
 	transition: all 0.8s;

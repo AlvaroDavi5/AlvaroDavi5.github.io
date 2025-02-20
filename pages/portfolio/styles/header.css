@@ -1,4 +1,3 @@
-
 #presentation {
 	background-color: var(--dark-color);
 	height: 22vw;
@@ -47,16 +46,16 @@
 
 #navbar-options li {
 	float: left;
-  width: 110px;
+	width: 110px;
 }
 
 #navbar-options li a {
-  display: block;
-  padding: 10px;
+	display: block;
+	padding: 10px;
 	margin: 1px;
 	color: #ffffff;
 	text-align: center;
-	font-weight:bolder;
+	font-weight: bolder;
 	border-radius: 10px;
 }
 
@@ -100,7 +99,7 @@
 	padding: 20px 5px;
 	text-align: center;
 	color: #ffffff;
-	font-weight:bolder;
+	font-weight: bolder;
 }
 
 #menu-options nav a:hover {
@@ -119,7 +118,7 @@ input[type=checkbox] {
 	display: none;
 }
 
-input[type=checkbox]:checked ~ #menu-options nav {
+input[type=checkbox]:checked~#menu-options nav {
 	transform: translateX(-50vw);
 	transition: all 0.5s;
 }

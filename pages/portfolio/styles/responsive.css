@@ -1,11 +1,12 @@
-
 @media (max-width: 500px) {
 	#name-title {
 		padding-top: 8px;
 	}
+
 	#name-title h1 {
 		font-size: 7vw;
 	}
+
 	#name-title h3 {
 		font-size: 5vw;
 	}
@@ -16,12 +17,15 @@
 	#name-title {
 		font-size: 2.5vw;
 	}
+
 	#menu-button {
 		display: flex;
 	}
+
 	#navbar-options {
 		display: none;
 	}
+
 	#about {
 		text-align: center;
 	}
