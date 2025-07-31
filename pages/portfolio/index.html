@@ -11,15 +11,15 @@
 </head>
 
 <body>
-	<div id="home-page">
+	<main id="home-page">
 		<header>
 			<div id="presentation">
 				<div id="photo">
 					<img id="profile-picture" alt="Profile Picture" src="https://github.com/AlvaroDavi5.png">
 				</div>
 				<div id="name-title">
-					<h1>Álvaro Davi</h1>
-					<h3>Software Developer</h3>
+					<h1>Álvaro Alves</h1>
+					<h3>Software Engineer</h3>
 				</div>
 				<div id="navbar-options">
 					<ul>
@@ -33,7 +33,15 @@
 					<label for="menu-checkbox">
 						<img src="./assets/menu-icon-white.png" alt="menu icon" id="menu-icon">
 					</label>
-					<div id="menu-options"></div>
+					<div id="menu-options">
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#experiences">Experiences</a></li>
+								<li><a href="#skills">Skills</a></li>
+							</ul>
+						</nav>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -72,14 +80,14 @@
 								LinkedIn
 							</a>
 						</li>
-						<li id="email">
-							<a href="mailto:alvaro.davisa@gmail.com">
-								e-Mail
-							</a>
-						</li>
 						<li id="github">
 							<a href="https://github.com/AlvaroDavi5">
 								GitHub
+							</a>
+						</li>
+						<li id="email">
+							<a href="mailto:alvaro.davisa@gmail.com">
+								e-Mail
 							</a>
 						</li>
 						<li id="cv">
@@ -300,62 +308,62 @@
 						</div>
 					</div>
 
-					<div class="skills-block">
-						<h5>Soft Skills</h5>
+				</div>
+				<div class="skills-block">
+					<h5>Soft Skills</h5>
 
-						<div class="skills-details">
-							<summary>
-								<h6>Workflow</h6>
-							</summary>
-							<div class="knowledgements">
-								<div class="knowledgement-block">
-									<h6>Agile</h6>
-									<ul>
-										<li>Scrum</li>
-										<li>Kanban</li>
-										<li>Trello</li>
-										<li>Jira</li>
-										<li>Confluence</li>
-										<li>GitHub Projects</li>
-									</ul>
-								</div>
+					<div class="skills-details">
+						<summary>
+							<h6>Workflow</h6>
+						</summary>
+						<div class="knowledgements">
+							<div class="knowledgement-block">
+								<h6>Agile</h6>
+								<ul>
+									<li>Scrum</li>
+									<li>Kanban</li>
+									<li>Trello</li>
+									<li>Jira</li>
+									<li>Confluence</li>
+									<li>GitHub Projects</li>
+								</ul>
 							</div>
 						</div>
+					</div>
 
-						<div class="skills-details">
-							<summary>
-								<h6>Languages</h6>
-							</summary>
-							<div class="knowledgements">
-								<div class="knowledgement-block">
-									<h6>Portuguese</h6>
-									<ul>
-										<li>native</li>
-									</ul>
-								</div>
-								<div class="knowledgement-block">
-									<h6>English</h6>
-									<ul>
-										<li>intermediate</li>
-									</ul>
-								</div>
+					<div class="skills-details">
+						<summary>
+							<h6>Languages</h6>
+						</summary>
+						<div class="knowledgements">
+							<div class="knowledgement-block">
+								<h6>Portuguese</h6>
+								<ul>
+									<li>native</li>
+								</ul>
+							</div>
+							<div class="knowledgement-block">
+								<h6>English</h6>
+								<ul>
+									<li>intermediate</li>
+								</ul>
 							</div>
 						</div>
+					</div>
 
-						<div class="skills-details">
-							<summary>
-								<h6>Others Soft Skills</h6>
-							</summary>
-							<div class="knowledgements">
-								<div class="knowledgement-block">
-									<ul>
-										<li>responsible</li>
-										<li>dedicated</li>
-										<li>good oratory</li>
-										<li>works well in a team</li>
-										<li>always willing to learn</li>
-									</ul>
-								</div>
+					<div class="skills-details">
+						<summary>
+							<h6>Others Soft Skills</h6>
+						</summary>
+						<div class="knowledgements">
+							<div class="knowledgement-block">
+								<ul>
+									<li>responsible</li>
+									<li>dedicated</li>
+									<li>good oratory</li>
+									<li>works well in a team</li>
+									<li>always willing to learn</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -364,23 +372,22 @@
 
 			<footer>
 				<p>
-					by Alvaro Davi &#169; 2023
+					by Alvaro Davi &#169; 2025
 				</p>
 			</footer>
 		</div>
+	</main>
 
-		<script src="./scripts/homepage.js"></script>
-
-		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-
-		<script type="text/javascript">
-			$(document).ready(function () {
-				$('div.skills-details').not(this).find('div.knowledgements').hide();
-				$('div.skills-details').click(function () {
-					$(this).find('div.knowledgements').toggle();
-				});
+	<script src="./scripts/homepage.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('div.skills-details').not(this).find('div.knowledgements').hide();
+			$('div.skills-details').click(function () {
+				$(this).find('div.knowledgements').toggle();
 			});
-		</script>
+		});
+	</script>
 </body>
 
 </html>
